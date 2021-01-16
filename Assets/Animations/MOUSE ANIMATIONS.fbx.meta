@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 52ae5f400965ad94a89072a5ed4ccea9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone.arm.lower.L
+    100004: Bone.arm.lower.R
+    100006: Bone.arm.upper.L
+    100008: Bone.arm.upper.R
+    100010: Bone.elbow.target.L
+    100012: Bone.elbow.target.L_end
+    100014: Bone.elbow.target.R
+    100016: Bone.elbow.target.R_end
+    100018: Bone.foot.L
+    100020: Bone.foot.R
+    100022: Bone.hand.control.L
+    100024: Bone.hand.control.L_end
+    100026: Bone.hand.control.R
+    100028: Bone.hand.control.R_end
+    100030: Bone.hand.L
+    100032: Bone.hand.L_end
+    100034: Bone.hand.R
+    100036: Bone.hand.R_end
+    100038: Bone.head
+    100040: Bone.knee.target.L
+    100042: Bone.knee.target.L_end
+    100044: Bone.knee.target.R
+    100046: Bone.knee.target.R_end
+    100048: Bone.leg.control.L
+    100050: Bone.leg.control.R
+    100052: Bone.leg.lower.L
+    100054: Bone.leg.lower.R
+    100056: Bone.leg.upper.L
+    100058: Bone.leg.upper.R
+    100060: Bone.neck
+    100062: Bone.nose
+    100064: Bone.nose_end
+    100066: Bone.pelvis.control
+    100068: Bone.pelvis.L
+    100070: Bone.pelvis.R
+    100072: Bone.root
+    100074: Bone.shoulder.L
+    100076: Bone.shoulder.R
+    100078: Bone.spine.bottom
+    100080: Bone.spine.middle
+    100082: Bone.spine.top
+    100084: Bone.tail
+    100086: Bone.tail.001
+    100088: Bone.tail.002
+    100090: Bone.tail.003
+    100092: Bone.tail.004
+    100094: Bone.tail.005
+    100096: Bone.tail.005_end
+    100098: Bone.toes.control.L
+    100100: Bone.toes.control.L_end
+    100102: Bone.toes.control.R
+    100104: Bone.toes.control.R_end
+    100106: Bone.toes.L
+    100108: Bone.toes.L_end
+    100110: Bone.toes.R
+    100112: Bone.toes.R_end
+    100114: Mouse
+    100116: //RootNode
+    400000: Armature
+    400002: Bone.arm.lower.L
+    400004: Bone.arm.lower.R
+    400006: Bone.arm.upper.L
+    400008: Bone.arm.upper.R
+    400010: Bone.elbow.target.L
+    400012: Bone.elbow.target.L_end
+    400014: Bone.elbow.target.R
+    400016: Bone.elbow.target.R_end
+    400018: Bone.foot.L
+    400020: Bone.foot.R
+    400022: Bone.hand.control.L
+    400024: Bone.hand.control.L_end
+    400026: Bone.hand.control.R
+    400028: Bone.hand.control.R_end
+    400030: Bone.hand.L
+    400032: Bone.hand.L_end
+    400034: Bone.hand.R
+    400036: Bone.hand.R_end
+    400038: Bone.head
+    400040: Bone.knee.target.L
+    400042: Bone.knee.target.L_end
+    400044: Bone.knee.target.R
+    400046: Bone.knee.target.R_end
+    400048: Bone.leg.control.L
+    400050: Bone.leg.control.R
+    400052: Bone.leg.lower.L
+    400054: Bone.leg.lower.R
+    400056: Bone.leg.upper.L
+    400058: Bone.leg.upper.R
+    400060: Bone.neck
+    400062: Bone.nose
+    400064: Bone.nose_end
+    400066: Bone.pelvis.control
+    400068: Bone.pelvis.L
+    400070: Bone.pelvis.R
+    400072: Bone.root
+    400074: Bone.shoulder.L
+    400076: Bone.shoulder.R
+    400078: Bone.spine.bottom
+    400080: Bone.spine.middle
+    400082: Bone.spine.top
+    400084: Bone.tail
+    400086: Bone.tail.001
+    400088: Bone.tail.002
+    400090: Bone.tail.003
+    400092: Bone.tail.004
+    400094: Bone.tail.005
+    400096: Bone.tail.005_end
+    400098: Bone.toes.control.L
+    400100: Bone.toes.control.L_end
+    400102: Bone.toes.control.R
+    400104: Bone.toes.control.R_end
+    400106: Bone.toes.L
+    400108: Bone.toes.L_end
+    400110: Bone.toes.R
+    400112: Bone.toes.R_end
+    400114: Mouse
+    400116: //RootNode
+    4300000: Mouse
+    7400000: Armature|IDLE
+    7400002: Armature|MouseAction
+    7400004: Armature|WALK
+    9500000: //RootNode
+    13700000: Mouse
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes_Mat
+    second: {fileID: 2100000, guid: 9e3570fe743bc9b42b0dfae9c172eda9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouse_Mat
+    second: {fileID: 2100000, guid: a1b295abea946b04ba0606535b63740c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

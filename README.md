@@ -1,1 +1,2 @@
-# mouse-sweeper-3d
+# 3d-mine-sweeper
+
