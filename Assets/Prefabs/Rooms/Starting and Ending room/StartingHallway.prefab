@@ -47,8 +47,8 @@ GameObject:
   - component: {fileID: 5744636005909739607}
   - component: {fileID: 5744636005909739606}
   - component: {fileID: 4498450248043625406}
-  m_Layer: 9
-  m_Name: StartingHallwayFloor (2)
+  m_Layer: 12
+  m_Name: StartingHallwayWall1
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -264,8 +264,8 @@ GameObject:
   - component: {fileID: 5744636006060836580}
   - component: {fileID: 5744636006060836603}
   - component: {fileID: 2692716947279266062}
-  m_Layer: 9
-  m_Name: StartingHallwayFloor (3)
+  m_Layer: 12
+  m_Name: StartingHallwayWall2
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 5744636006147594321}
   - component: {fileID: 8935860996488031991}
   m_Layer: 9
-  m_Name: StartingHallwayFloor (1)
+  m_Name: StartingHallwayCeiling
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
