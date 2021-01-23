@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SmallArena1.unity
     guid: d346d1f12c9b750459c6bc0b444335e1
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.unity
+    guid: feee61af0acb258469d477d2a46e2921
   m_configObjects: {}

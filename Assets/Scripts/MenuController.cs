@@ -11,6 +11,7 @@ public class MenuController : MonoBehaviour
     public string monumentScene;
     public string twoBridgesScene;
     public string twoCratesScene;
+    public string tutorial1;
     public Button restartButton;
     public Button mainMenuButton;
     // Start is called before the first frame update
@@ -48,6 +49,10 @@ public class MenuController : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(mainMenu);
+    }
+    public void Tutorial1()
+    {
+        SceneManager.LoadScene(tutorial1);
     }
 
     public void QuitGame()
