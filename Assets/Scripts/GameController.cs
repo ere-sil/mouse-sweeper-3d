@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public Button restartButton;
     public Button mainMenuButton;
+    public Button resumeButton;
     public static bool gamePlaying;
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,13 @@ public class GameController : MonoBehaviour
             RestartScreen();
         }
         Debug.Log(gamePlaying);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            gamePlaying = false;
+            RestartScreen();
+        }
+        Debug.Log(gamePlaying);
     }
 
     void BeginGame()
@@ -35,13 +43,6 @@ public class GameController : MonoBehaviour
         TimerController.instance.BeginTimer();
     }
 
-    void MouseIsDead()
-    {
-        if (player == null)
-        {
-
-        }
-    }
     public void RestartScreen()
     {
         Cursor.lockState = CursorLockMode.None;
@@ -49,6 +50,7 @@ public class GameController : MonoBehaviour
         gameOverText.gameObject.SetActive(true);
         restartButton.gameObject.SetActive(true);
         mainMenuButton.gameObject.SetActive(true);
+        resumeButton.gameObject.SetActive(true);
     }
 }
 

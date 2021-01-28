@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MenuController : MonoBehaviour
 {
@@ -11,8 +12,10 @@ public class MenuController : MonoBehaviour
     public string monumentScene;
     public string twoBridgesScene;
     public string twoCratesScene;
+    public TextMeshProUGUI gameOverText;
     public Button restartButton;
     public Button mainMenuButton;
+    public Button resumeButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +51,17 @@ public class MenuController : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(mainMenu);
+    }
+
+    public void ResumeGame()
+    {
+        GameController.gamePlaying = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        gameOverText.gameObject.SetActive(false);
+        restartButton.gameObject.SetActive(false);
+        mainMenuButton.gameObject.SetActive(false);
+        resumeButton.gameObject.SetActive(false);
     }
 
     public void QuitGame()

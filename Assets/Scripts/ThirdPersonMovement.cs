@@ -19,6 +19,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private bool isGrounded;
     private bool isRunning = false;
+    private bool canMove = true;
 
     public float gravityModifier;
 
@@ -38,6 +39,14 @@ public class ThirdPersonMovement : MonoBehaviour
         movePlayer();
         jumpPlayer();
         timeLeft = issGrounded();
+        if (GameController.gamePlaying == false)
+        {
+            canMove = false;
+        }
+        else
+        {
+            canMove = true;
+        }
     }
 
     float issGrounded()
@@ -63,7 +72,7 @@ public class ThirdPersonMovement : MonoBehaviour
         isRunning = Input.GetKey(KeyCode.LeftShift);
         Vector3 direction = new Vector3(horizontalInput, 0.0f, forwardInput).normalized;
 
-        if (direction.magnitude >= 0.1F)
+        if (direction.magnitude >= 0.1F && canMove == true)
         {
             //uses Atan and radi2deg functions to adjust angle, where player should be moving
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -101,7 +110,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private void jumpPlayer()
     {
-        if (isGrounded && movement.y < 0)
+        if (isGrounded && movement.y < 0 && canMove == true)
         {
             movement.y = -0.1f;
         }
