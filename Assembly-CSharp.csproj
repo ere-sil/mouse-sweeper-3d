@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\DoorControllerMincerDoor.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\IsMineTrigger.cs" />
+    <Compile Include="Assets\Scripts\LifePowerUp.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\MiceMincer.cs" />
     <Compile Include="Assets\Scripts\MineCounter.cs" />
