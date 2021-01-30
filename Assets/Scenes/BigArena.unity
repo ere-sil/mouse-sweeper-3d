@@ -15050,6 +15050,18 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: Heal
+    clip: {fileID: 8300000, guid: c61cf729488f5b44a90a97aa190bf3b1, type: 3}
+    volume: 0.072
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HeartBeat
+    clip: {fileID: 8300000, guid: 85089e85aedc98b4986ec1b7863abab0, type: 3}
+    volume: 0.709
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &1977768255
 Transform:
   m_ObjectHideFlags: 0

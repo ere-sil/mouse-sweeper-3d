@@ -71,4 +71,8 @@ public class PlayerController : MonoBehaviour
         Destroy(player);
 
     }
+    public void lifeUp()
+    {
+       if(currentHearts<maxHearts) currentHearts++;
+    }
 }
