@@ -7,13 +7,16 @@ using TMPro;
 public class GameController : MonoBehaviour
 {
     public GameObject player;
-    public TextMeshProUGUI gameOverText;
-    public Button restartButton;
-    public Button mainMenuButton;
+    public GameObject gameOverScreen;
+    public TMP_Text scoreText;
     public static bool gamePlaying;
+    public int Score;
+    public int lives;
     // Start is called before the first frame update
     void Start()
     {
+        Score = 0;
+        gameOverScreen.SetActive(false);
         BeginGame();
         player = GameObject.FindWithTag("Player");
     }
@@ -26,13 +29,17 @@ public class GameController : MonoBehaviour
             gamePlaying = false;
             RestartScreen();
         }
+        else
+        {
+            lives = player.GetComponent<PlayerController>().currentHearts;
+        }
         Debug.Log(gamePlaying);
     }
 
     void BeginGame()
     {
         gamePlaying = true;
-        TimerController.instance.BeginTimer();
+
     }
 
     void MouseIsDead()
@@ -46,9 +53,18 @@ public class GameController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(true);
-        mainMenuButton.gameObject.SetActive(true);
+        calculateScore();
+        scoreText.text = Score.ToString();
+        gameOverScreen.SetActive(true);
+
+    }
+
+    private int calculateScore()
+    {
+        int totalScore = Score;
+        totalScore += (500 * lives);
+        //pieces of cheese x 200
+        return totalScore;
     }
 }
 
