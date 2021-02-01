@@ -19,12 +19,18 @@ public class PlayerController : MonoBehaviour
 
     private bool isRunning = false;
 
+    public bool hasDoubleJumpPU;
+    public bool hasShieldPU;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         mineTile = GameObject.Find("MineTrigger");
         freeTile = GameObject.Find("NoMineTrigger");
+        hasDoubleJumpPU = false;
+        hasShieldPU = false;
+
     }
 
     // Update is called once per frame
@@ -68,11 +74,36 @@ public class PlayerController : MonoBehaviour
     }
     private void Die()
     {
+        FindObjectOfType<AudioManager>().sounds[7].volume = 0;
         Destroy(player);
 
     }
     public void lifeUp()
     {
        if(currentHearts<maxHearts) currentHearts++;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("DoubleJumpPU"))
+        {
+            hasDoubleJumpPU = true;
+            FindObjectOfType<AudioManager>().Play("Pop");
+            Destroy(other.gameObject);
+
+        }
+        else if (other.gameObject.CompareTag("ShieldPU"))
+        {
+            hasShieldPU = true;
+            transform.localScale = new Vector3(3, 3, 3);
+            FindObjectOfType<AudioManager>().Play("Pop");
+            Destroy(other.gameObject);
+        }
+        else if (other.gameObject.CompareTag("MetalDetector"))
+        {
+            other.gameObject.transform.SetParent(transform);
+            other.gameObject.transform.localPosition = new Vector3(0.211f, -0.684f, 1.332f);
+            other.gameObject.transform.localRotation = Quaternion.Euler(new Vector3(0, -180, 0));
+        }
     }
 }

@@ -31,7 +31,8 @@ public class TileScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player")&& isMine){
             
             Debug.Log("Mine here");
-            player.GetComponent<PlayerController>().currentHearts--;
+            if (!player.GetComponent<PlayerController>().hasShieldPU) player.GetComponent<PlayerController>().currentHearts--;
+            else player.GetComponent<PlayerController>().hasShieldPU = false;
             if (player.GetComponent<PlayerController>().currentHearts <= 0)//last life=big explosion
             {
                 audiomanager.Play("BigExplosion");

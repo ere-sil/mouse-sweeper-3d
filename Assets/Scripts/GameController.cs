@@ -53,6 +53,7 @@ public class GameController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        Destroy(FindObjectOfType<AudioManager>().gameObject, 2);
         calculateScore();
         scoreText.text = Score.ToString();
         gameOverScreen.SetActive(true);
