@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ddf5eaa5b2f471e4b9f3c6fe9d4e1019, type: 2}
+  - {fileID: 2100000, guid: 2485819f95177e3449629dbcd441bf72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -150,7 +150,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ddf5eaa5b2f471e4b9f3c6fe9d4e1019, type: 2}
+  - {fileID: 2100000, guid: 2485819f95177e3449629dbcd441bf72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -242,7 +242,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ddf5eaa5b2f471e4b9f3c6fe9d4e1019, type: 2}
+  - {fileID: 2100000, guid: 2485819f95177e3449629dbcd441bf72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -334,7 +334,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ddf5eaa5b2f471e4b9f3c6fe9d4e1019, type: 2}
+  - {fileID: 2100000, guid: 2485819f95177e3449629dbcd441bf72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -466,7 +466,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ddf5eaa5b2f471e4b9f3c6fe9d4e1019, type: 2}
+  - {fileID: 2100000, guid: 2485819f95177e3449629dbcd441bf72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -633,32 +633,32 @@ PrefabInstance:
     - target: {fileID: 193246829960375941, guid: 99f3bf28289114f4ab31d63275df6e41,
         type: 3}
       propertyPath: m_AABB.m_Center.x
-      value: 0.051963806
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 193246829960375941, guid: 99f3bf28289114f4ab31d63275df6e41,
         type: 3}
       propertyPath: m_AABB.m_Center.z
-      value: -0.10021973
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 193246829960375941, guid: 99f3bf28289114f4ab31d63275df6e41,
         type: 3}
       propertyPath: m_AABB.m_Extent.x
-      value: 4.9819865
+      value: 5.0000052
       objectReference: {fileID: 0}
     - target: {fileID: 193246829960375941, guid: 99f3bf28289114f4ab31d63275df6e41,
         type: 3}
       propertyPath: m_AABB.m_Extent.y
-      value: 1.7497294
+      value: 0.00799772
       objectReference: {fileID: 0}
     - target: {fileID: 193246829960375941, guid: 99f3bf28289114f4ab31d63275df6e41,
         type: 3}
       propertyPath: m_AABB.m_Extent.z
-      value: 4.978668
+      value: 5.0000334
       objectReference: {fileID: 0}
     - target: {fileID: 193246829960375941, guid: 99f3bf28289114f4ab31d63275df6e41,
         type: 3}
       propertyPath: m_AABB.m_Center.y
-      value: 1.7403564
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 193246829960375941, guid: 99f3bf28289114f4ab31d63275df6e41,
         type: 3}
