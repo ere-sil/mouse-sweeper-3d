@@ -2549,6 +2549,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 9d3f7f591775d6049b5630305c2f9b7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9d3f7f591775d6049b5630305c2f9b7d, type: 3}
       propertyPath: m_Name
       value: container1
@@ -3372,6 +3376,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: f1e3be3ff7d3b3c4880d5081a182099b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: f1e3be3ff7d3b3c4880d5081a182099b, type: 3}
       propertyPath: m_Name
       value: container3
@@ -3460,6 +3468,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
       propertyPath: m_Name
       value: woodcrate1 (3)
@@ -4136,6 +4148,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 2ed02e33c505f084b9c96f61076d0724, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 2ed02e33c505f084b9c96f61076d0724, type: 3}
       propertyPath: m_Name
       value: metalbarrel1
@@ -5135,6 +5151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
       propertyPath: m_Name
       value: woodcrate1 (1)
@@ -8140,6 +8160,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
       propertyPath: m_Name
       value: woodcrate1 (2)
@@ -10409,6 +10433,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
       propertyPath: m_Name
       value: woodcrate1 (4)
@@ -12862,6 +12890,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: ca37b141ffbf88743b61cee8ec4a0bbd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: ca37b141ffbf88743b61cee8ec4a0bbd, type: 3}
       propertyPath: m_Name
       value: woodbarrel1
@@ -15151,6 +15183,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 658ca3c257a713d498e877b4af5da7ef, type: 3}
       propertyPath: m_Name
       value: woodcrate1
@@ -15220,6 +15256,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 665a7a956481b9f4b9bc17ec40ec064b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 665a7a956481b9f4b9bc17ec40ec064b, type: 3}
       propertyPath: m_Name
       value: woodbarrel2
