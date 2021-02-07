@@ -13,6 +13,9 @@ TagManager:
   - Trigger
   - FlagNoMine
   - FlagMine
+  - DoubleJumpPU
+  - ShieldPU
+  - MetalDetector
   layers:
   - Default
   - TransparentFX

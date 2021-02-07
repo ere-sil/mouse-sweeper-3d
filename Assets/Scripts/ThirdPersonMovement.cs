@@ -11,7 +11,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public float movingSpeed;
     public float runningSpeedModifier;
     public float jumpForce;
-    public float jumpForceModifier;
+    //private float jumpForceModifier;
     Vector3 movement;
 
     public float turnSmoothTime = 0.1f;
@@ -24,12 +24,18 @@ public class ThirdPersonMovement : MonoBehaviour
 
     float timeLeft = 1;
 
+    private PlayerController pc;
+
+
+
     private void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        pc = GetComponent<PlayerController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         Physics.gravity *= gravityModifier;
+
     }
     // Update is called once per frame
     void Update()
@@ -105,18 +111,31 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             movement.y = -0.1f;
         }
-        if (isGrounded == true && Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            bool isRunning = Input.GetKey(KeyCode.LeftShift);
-            if (isRunning == true)
-            {
-                movement.y = jumpForce * jumpForceModifier;
-                isRunning = false;
-            }   
-            movement.y += Mathf.Sqrt(jumpForce * -3.0f * gravityModifier);
+            JumpAction(2f);
+
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && pc.hasDoubleJumpPU && !isGrounded)
+        {
+
+            JumpAction(2.5f);
+            pc.hasDoubleJumpPU = false;
         }
         movement.y += gravityModifier * Time.deltaTime;
         controller.Move(movement * Time.deltaTime);
+
+}
+    private void JumpAction(float jumpForceModifier)
+    {
+        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        if (isRunning == true)
+        {
+            movement.y = jumpForce * jumpForceModifier;
+            isRunning = false;
+        }
+        movement.y += Mathf.Sqrt(jumpForce * -3.0f * gravityModifier);
     }
+    
 
 }

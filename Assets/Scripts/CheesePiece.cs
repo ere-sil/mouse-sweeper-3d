@@ -23,6 +23,7 @@ public class CheesePiece : MonoBehaviour
             isAvailable = false;
             Debug.Log("+200 points");
             gc.Score += points;
+            FindObjectOfType<AudioManager>().Play("Eat");
             StartCoroutine(coolDown());
             Destroy(gameObject);
         }
