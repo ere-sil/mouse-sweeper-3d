@@ -16,6 +16,8 @@ TagManager:
   - DoubleJumpPU
   - ShieldPU
   - MetalDetector
+  - GameControl
+  - calcMine
   layers:
   - Default
   - TransparentFX
