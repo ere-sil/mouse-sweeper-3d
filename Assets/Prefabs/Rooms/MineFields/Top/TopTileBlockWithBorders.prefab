@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 3379271629618450162}
   - component: {fileID: 8090908074366054194}
   - component: {fileID: 406715082055293614}
+  - component: {fileID: 7107769062921499064}
   m_Layer: 9
   m_Name: TopTileBlockWithBorders
-  m_TagString: Ground
+  m_TagString: noMine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,6 +122,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04ce59c971a08ed4c8caadd3a0505aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7107769062921499064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534514321090312778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac1c61fe87ef45458d342695577af92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664, type: 3}
+  highlight: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
+  normal: {fileID: 2100000, guid: ccb9192eb74a5cc418d2e8921cb168e8, type: 2}
+--- !u!54 &7476345528911708499
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5603236972962090123}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &1669989441770703009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132,6 +164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CalcMineTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552259008849822762, guid: 745567fc069957149a8acf1bb80a2b42,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8576042853567907871, guid: 745567fc069957149a8acf1bb80a2b42,
         type: 3}
@@ -190,6 +227,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 745567fc069957149a8acf1bb80a2b42, type: 3}
+--- !u!1 &5603236972962090123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6552259008849822762, guid: 745567fc069957149a8acf1bb80a2b42,
+    type: 3}
+  m_PrefabInstance: {fileID: 1669989441770703009}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6929006851100246206 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8576042853567907871, guid: 745567fc069957149a8acf1bb80a2b42,
