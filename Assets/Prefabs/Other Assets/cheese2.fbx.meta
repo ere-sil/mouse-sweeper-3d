@@ -1,49 +1,14 @@
 fileFormatVersion: 2
-guid: 665a7a956481b9f4b9bc17ec40ec064b
+guid: 6e984b3a1241e6d4da64bde40c10c9ba
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Camera
-    100002: Cylinder.012
-    100004: Cylinder.013
-    100006: Cylinder.014
-    100008: Cylinder.015
-    100010: Cylinder.016
-    100012: Cylinder.017
-    100014: //RootNode
-    400000: Camera
-    400002: Cylinder.012
-    400004: Cylinder.013
-    400006: Cylinder.014
-    400008: Cylinder.015
-    400010: Cylinder.016
-    400012: Cylinder.017
-    400014: //RootNode
-    2000000: Camera
-    2100000: Material.001
-    2100002: Material.002
-    2100004: Material.003
-    2100006: Material.004
-    2100008: Material.005
-    2100010: Material.006
-    2300000: Cylinder.012
-    2300002: Cylinder.013
-    2300004: Cylinder.014
-    2300006: Cylinder.015
-    2300008: Cylinder.016
-    2300010: Cylinder.017
-    3300000: Cylinder.012
-    3300002: Cylinder.013
-    3300004: Cylinder.014
-    3300006: Cylinder.015
-    3300008: Cylinder.016
-    3300010: Cylinder.017
-    4300000: Cylinder.012
-    4300002: Cylinder.013
-    4300004: Cylinder.014
-    4300006: Cylinder.015
-    4300008: Cylinder.016
-    4300010: Cylinder.017
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Material
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
   externalObjects: {}
   materials:
     importMaterials: 1

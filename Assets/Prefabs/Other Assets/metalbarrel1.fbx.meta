@@ -1,23 +1,20 @@
 fileFormatVersion: 2
-guid: 2ed02e33c505f084b9c96f61076d0724
+guid: 5e899279cc6cf204b9592964104005a4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Camera
-    100002: Cylinder.018
-    100004: Cylinder.019
-    100006: Cylinder.020
-    100008: Cylinder.021
-    100010: Cylinder.022
-    100012: //RootNode
-    400000: Camera
-    400002: Cylinder.018
-    400004: Cylinder.019
-    400006: Cylinder.020
-    400008: Cylinder.021
-    400010: Cylinder.022
-    400012: //RootNode
-    2000000: Camera
+    100000: Cylinder.018
+    100002: Cylinder.019
+    100004: Cylinder.020
+    100006: Cylinder.021
+    100008: Cylinder.022
+    100010: //RootNode
+    400000: Cylinder.018
+    400002: Cylinder.019
+    400004: Cylinder.020
+    400006: Cylinder.021
+    400008: Cylinder.022
+    400010: //RootNode
     2100000: Material.014
     2100002: Material.015
     2300000: Cylinder.018
@@ -72,7 +69,7 @@ ModelImporter:
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
+    importCameras: 1
     importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

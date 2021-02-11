@@ -1,29 +1,26 @@
 fileFormatVersion: 2
-guid: f1e3be3ff7d3b3c4880d5081a182099b
+guid: 67ea3b90c0e616e42af41b2c9a709be7
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Camera
-    100002: //RootNode
-    100004: Cube.001
-    100006: Cube.070
-    100008: Cube.071
-    100010: Cube.072
-    100012: Cube.076
-    100014: Cube.078
-    100016: Cube.079
-    100018: Cube.080
-    400000: Camera
-    400002: //RootNode
-    400004: Cube.001
-    400006: Cube.070
-    400008: Cube.071
-    400010: Cube.072
-    400012: Cube.076
-    400014: Cube.078
-    400016: Cube.079
-    400018: Cube.080
-    2000000: Camera
+    100000: //RootNode
+    100002: Cube.001
+    100004: Cube.070
+    100006: Cube.071
+    100008: Cube.072
+    100010: Cube.076
+    100012: Cube.078
+    100014: Cube.079
+    100016: Cube.080
+    400000: //RootNode
+    400002: Cube.001
+    400004: Cube.070
+    400006: Cube.071
+    400008: Cube.072
+    400010: Cube.076
+    400012: Cube.078
+    400014: Cube.079
+    400016: Cube.080
     2100000: Material.020
     2100002: Material.019
     2100004: Material.018
