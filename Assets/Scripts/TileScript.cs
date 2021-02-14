@@ -9,6 +9,10 @@ public class TileScript : MonoBehaviour
     private GameObject player;
     private bool isMine;
     private GameObject gameController;
+    public Material highlight;
+    public Material normal;
+    private bool isHighlighted;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +23,13 @@ public class TileScript : MonoBehaviour
             isMine = true;
         }
         else isMine = false;
+        isHighlighted = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        changeTileColor();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -48,12 +53,34 @@ public class TileScript : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        else if (other.gameObject.CompareTag("Player") && !isMine){
-            Destroy(gameObject);
+        else if (other.gameObject.CompareTag("Player") && !isMine){     //somebody should check if & could be used instead of && because if playing as Player, && ignores !isMine
+            Destroy(gameObject);                                        //if Player is true
             Debug.Log("No mine here");
             audiomanager.Play("FreeTile");
 
         }
-
+    }
+    //the following script changes color of all mine-tagged tiles by pressing h from keyboard
+    private void changeTileColor()
+    {
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            if (isHighlighted == true)
+            {
+                isHighlighted = false;
+            }
+            else
+            {
+                isHighlighted = true;
+            }
+        }
+        if (gameObject.CompareTag("isMine") & isHighlighted == true)
+        {
+            gameObject.GetComponent<MeshRenderer>().material = highlight;
+        }
+        else if (gameObject.CompareTag("isMine") & isHighlighted == false)
+        {
+            gameObject.GetComponent<MeshRenderer>().material = normal;
+        }
     }
 }

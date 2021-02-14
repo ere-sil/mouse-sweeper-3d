@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\MetalDetector.cs" />
     <Compile Include="Assets\Scripts\MiceMincer.cs" />
     <Compile Include="Assets\Scripts\MineCounter.cs" />
+    <Compile Include="Assets\Scripts\MinesNextToTileCounter.cs" />
     <Compile Include="Assets\Scripts\MouseLookCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\RevealOnTrigger.cs" />

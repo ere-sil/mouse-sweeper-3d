@@ -33,7 +33,6 @@ public class GameController : MonoBehaviour
         {
             lives = player.GetComponent<PlayerController>().currentHearts;
         }
-        Debug.Log(gamePlaying);
     }
 
     void BeginGame()

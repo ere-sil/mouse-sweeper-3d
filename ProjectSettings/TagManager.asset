@@ -16,6 +16,11 @@ TagManager:
   - DoubleJumpPU
   - ShieldPU
   - MetalDetector
+  - GameControl
+  - calcMine
+  - BottomTile
+  - MineNumber
+  - triggerIsMine
   layers:
   - Default
   - TransparentFX

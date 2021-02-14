@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     public GameObject player;
-    public GameObject mineTile;
-    public GameObject freeTile;
     private CharacterController controller;
     //lives system
     public int currentHearts = 3;
@@ -26,8 +24,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
-        mineTile = GameObject.Find("MineTrigger");
-        freeTile = GameObject.Find("NoMineTrigger");
         hasDoubleJumpPU = false;
         hasShieldPU = false;
 
@@ -80,7 +76,10 @@ public class PlayerController : MonoBehaviour
     }
     public void lifeUp()
     {
-       if(currentHearts<maxHearts) currentHearts++;
+        if (currentHearts < maxHearts & currentHearts > 0)
+        {
+            currentHearts++;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
