@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     public GameObject player;
+    private GameController gameController;
     private CharacterController controller;
     //lives system
     public int currentHearts = 3;
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameController = FindObjectOfType<GameController>();
         player = GameObject.FindWithTag("Player");
         hasDoubleJumpPU = false;
         hasShieldPU = false;
@@ -70,7 +72,6 @@ public class PlayerController : MonoBehaviour
     }
     private void Die()
     {
-        FindObjectOfType<AudioManager>().sounds[7].volume = 0;
         Destroy(player);
 
     }
@@ -94,15 +95,21 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("ShieldPU"))
         {
             hasShieldPU = true;
-            transform.localScale = new Vector3(3, 3, 3);
+            Destroy(other);
             FindObjectOfType<AudioManager>().Play("Pop");
-            Destroy(other.gameObject);
+            other.gameObject.transform.SetParent(transform);
+            other.gameObject.transform.localPosition = new Vector3(0.28f, 0, 0.33f);
+            other.gameObject.transform.localRotation = Quaternion.Euler(new Vector3(0, -102.024F, 89.064F));
+            
         }
         else if (other.gameObject.CompareTag("MetalDetector"))
         {
+            gameController.detectorRemaining.SetActive(true);
+            Destroy(other);
+            FindObjectOfType<AudioManager>().Play("Pop");
             other.gameObject.transform.SetParent(transform);
-            other.gameObject.transform.localPosition = new Vector3(0.211f, -0.684f, 1.332f);
-            other.gameObject.transform.localRotation = Quaternion.Euler(new Vector3(0, -180, 0));
+            other.gameObject.transform.localPosition = new Vector3(0.278f, -0.8f, 1.6203f);
+            other.gameObject.transform.localRotation = Quaternion.Euler(new Vector3(-25.177f, 0, 0));
         }
     }
 }

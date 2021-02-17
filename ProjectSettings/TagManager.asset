@@ -21,6 +21,8 @@ TagManager:
   - BottomTile
   - MineNumber
   - triggerIsMine
+  - Shield
+  - Cheese
   layers:
   - Default
   - TransparentFX

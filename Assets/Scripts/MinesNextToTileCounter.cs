@@ -64,9 +64,9 @@ public class MinesNextToTileCounter : MonoBehaviour
     //calculates mines aroud the tile
     private void calculateMines(Collider other)
     {
-        if (calculateMinesAround == true)
+        if (calculateMinesAround)
         {
-            if (other.gameObject.CompareTag("triggerIsMine"))
+            if (other.gameObject!=null && other.gameObject.CompareTag("triggerIsMine"))
             {
                 mineValue++;
             }
@@ -77,15 +77,18 @@ public class MinesNextToTileCounter : MonoBehaviour
     // change material to exploded ground, if colliding with tile marked as mine
     private void setNumberOrSprite(Collider other)
     {
-        if (gameObject.CompareTag("MineNumber") & other.gameObject.CompareTag("calcMine"))
+        if (gameObject != null)
         {
-            mineTextValue = other.gameObject.GetComponent<MinesNextToTileCounter>().mineValue.ToString();
-            GetComponent<TextMesh>().text = mineTextValue;
-        }
-        else if (gameObject.CompareTag("MineNumber") & other.gameObject.CompareTag("triggerIsMine"))
-        {
-            transform.parent.GetComponent<MeshRenderer>().material = explodedGround;
-            gameObject.SetActive(false);
+            if (gameObject.CompareTag("MineNumber") & other.gameObject.CompareTag("calcMine"))
+            {
+                mineTextValue = other.gameObject.GetComponent<MinesNextToTileCounter>().mineValue.ToString();
+                GetComponent<TextMesh>().text = mineTextValue;
+            }
+            else if (gameObject.CompareTag("MineNumber") & other.gameObject.CompareTag("triggerIsMine"))
+            {
+                transform.parent.GetComponent<MeshRenderer>().material = explodedGround;
+                gameObject.SetActive(false);
+            }
         }
     }
 

@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     public GameObject player;
     public GameObject gameOverScreen;
     public TMP_Text scoreText;
+    public GameObject detectorRemaining;
     public static bool gamePlaying;
     public int Score;
     public int lives;
@@ -17,6 +18,7 @@ public class GameController : MonoBehaviour
     {
         Score = 0;
         gameOverScreen.SetActive(false);
+        detectorRemaining.SetActive(false);
         BeginGame();
         player = GameObject.FindWithTag("Player");
     }

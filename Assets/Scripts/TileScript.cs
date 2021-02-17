@@ -37,7 +37,11 @@ public class TileScript : MonoBehaviour
             
             Debug.Log("Mine here");
             if (!player.GetComponent<PlayerController>().hasShieldPU) player.GetComponent<PlayerController>().currentHearts--;
-            else player.GetComponent<PlayerController>().hasShieldPU = false;
+            else
+            {
+                player.GetComponent<PlayerController>().hasShieldPU = false;
+                Destroy(GameObject.FindGameObjectWithTag("ShieldPU"));
+            }
             if (player.GetComponent<PlayerController>().currentHearts <= 0)//last life=big explosion
             {
                 audiomanager.Play("BigExplosion");
@@ -53,7 +57,18 @@ public class TileScript : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        else if (other.gameObject.CompareTag("Player") && !isMine){     //somebody should check if & could be used instead of && because if playing as Player, && ignores !isMine
+        else if (other.gameObject.CompareTag("Player") && !isMine)
+        {     //somebody should check if & could be used instead of && because if playing as Player, && ignores !isMine
+            Collider[] hitColliders = Physics.OverlapSphere(transform.position, 8);//uncover some of the nearby tiles
+            foreach (var hitCollider in hitColliders)
+            {
+                if (hitCollider.gameObject.CompareTag("noMine"))
+                {
+                    if (Random.Range(0, 2) == 1)//50% chance of being uncovered
+                        Destroy(hitCollider.gameObject);
+                }
+            }
+
             Destroy(gameObject);                                        //if Player is true
             Debug.Log("No mine here");
             audiomanager.Play("FreeTile");

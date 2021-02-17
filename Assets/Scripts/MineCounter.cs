@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class MineCounter : MonoBehaviour
 {
-    public Text mineCounter1;
-    public int totalMines;
-    public int currentMines;
+    public Text cheeseCounter;
+    public int totalCheese;
+    public int cheeseleft;
+    public int currentCheese;
     public int flaggedMines;
     public int flaggedNoMines;
     public float newY;
@@ -19,9 +20,9 @@ public class MineCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    //count the total of mines
-    totalMines = GameObject.FindGameObjectsWithTag("isMine").Length;
-    mineCounter1.text = totalMines.ToString();
+        //count the total of mines
+        totalCheese = GameObject.FindGameObjectsWithTag("Cheese").Length;
+        
     //currentMines = totalMines;
         
     }
@@ -29,17 +30,20 @@ public class MineCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        cheeseleft = GameObject.FindGameObjectsWithTag("Cheese").Length;
+        currentCheese=totalCheese - cheeseleft;
+        cheeseCounter.text = currentCheese.ToString()+" / "+totalCheese.ToString();
         //search tiles with flag tags
         flaggedMines = GameObject.FindGameObjectsWithTag("FlagMine").Length;
         flaggedNoMines = GameObject.FindGameObjectsWithTag("FlagNoMine").Length;
 
         //calculate
-        currentMines = totalMines - flaggedMines - flaggedNoMines;
+       /* currentMines = totalMines - flaggedMines - flaggedNoMines;
         if(currentMines<0){
             currentMines = 0;
         }
         mineCounter1.text = currentMines.ToString();
-
+       */
         //on mouse click, select unrevealed tile and flag/unflag it
         if (Input.GetMouseButtonDown(0))
         {
@@ -95,11 +99,6 @@ public class MineCounter : MonoBehaviour
     }
     //when tile is flagged, show how many mines remain
     //doesn't tell if the flagged tile was correct
-    void CountMines()
-    {
-
-
-    }
 
     /*
     void PutFlag(GameObject go)
