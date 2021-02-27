@@ -110,6 +110,9 @@ public class PlayerController : MonoBehaviour
             other.gameObject.transform.SetParent(transform);
             other.gameObject.transform.localPosition = new Vector3(0.278f, -0.8f, 1.6203f);
             other.gameObject.transform.localRotation = Quaternion.Euler(new Vector3(-25.177f, 0, 0));
+        }else if (other.gameObject.CompareTag("Mincer"))
+        {
+            Die();
         }
     }
 }

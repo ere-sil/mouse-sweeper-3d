@@ -36,7 +36,7 @@ public class MetalDetector : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (transform.parent.gameObject.transform.parent.CompareTag("Player") && pressed)
+        if (transform.parent.gameObject.transform.parent!=null&& transform.parent.gameObject.transform.parent.CompareTag("Player") && pressed)
         {
             if (other.gameObject.CompareTag("isMine"))
             {

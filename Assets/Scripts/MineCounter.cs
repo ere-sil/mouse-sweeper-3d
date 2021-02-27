@@ -5,45 +5,48 @@ using UnityEngine.UI;
 
 public class MineCounter : MonoBehaviour
 {
-    public Text cheeseCounter;
-    public int totalCheese;
-    public int cheeseleft;
-    public int currentCheese;
+   // public Text cheeseCounter;
+   // public int totalCheese;
+   // public int cheeseleft;
+   // public int currentCheese;
     public int flaggedMines;
     public int flaggedNoMines;
     public float newY;
     public float newY2;
     public GameObject mineFlag;
     public GameObject noMineFlag;
+    float totalMines;
+    float currentMines;
+    public Text mineCounter1;
 
 
     // Start is called before the first frame update
     void Start()
     {
         //count the total of mines
-        totalCheese = GameObject.FindGameObjectsWithTag("Cheese").Length;
-        
-    //currentMines = totalMines;
+       // totalCheese = GameObject.FindGameObjectsWithTag("Cheese").Length;
+        totalMines= GameObject.FindGameObjectsWithTag("isMine").Length;
+        currentMines = totalMines;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        cheeseleft = GameObject.FindGameObjectsWithTag("Cheese").Length;
-        currentCheese=totalCheese - cheeseleft;
-        cheeseCounter.text = currentCheese.ToString()+" / "+totalCheese.ToString();
+      //  cheeseleft = GameObject.FindGameObjectsWithTag("Cheese").Length;
+       // currentCheese=totalCheese - cheeseleft;
+       // cheeseCounter.text = currentCheese.ToString()+" / "+totalCheese.ToString();
         //search tiles with flag tags
         flaggedMines = GameObject.FindGameObjectsWithTag("FlagMine").Length;
         flaggedNoMines = GameObject.FindGameObjectsWithTag("FlagNoMine").Length;
 
         //calculate
-       /* currentMines = totalMines - flaggedMines - flaggedNoMines;
+        currentMines = totalMines - flaggedMines - flaggedNoMines;
         if(currentMines<0){
             currentMines = 0;
         }
         mineCounter1.text = currentMines.ToString();
-       */
+       
         //on mouse click, select unrevealed tile and flag/unflag it
         if (Input.GetMouseButtonDown(0))
         {

@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1225922449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225922450}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1225922450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225922449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5621973664312192333}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2179051849152007918
 GameObject:
   m_ObjectHideFlags: 0
@@ -23,123 +53,124 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2179051849152007918}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -30.4, y: 0.15, z: 19.602}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1225922450}
   - {fileID: 5876308719065701461}
   - {fileID: 6952407536271186228}
-  - {fileID: 8702591554103659489}
   - {fileID: 4759822005481700448}
+  - {fileID: 8702591554103659489}
   - {fileID: 6339466306431564112}
   - {fileID: 8915925615726775997}
+  - {fileID: 1966945499437058855}
   - {fileID: 9106445210487899845}
   - {fileID: 9016618566789258532}
-  - {fileID: 1966945499437058855}
   - {fileID: 5563599018377237628}
   - {fileID: 2718241409776563969}
-  - {fileID: 8215034791985901917}
   - {fileID: 3988944058701229026}
+  - {fileID: 8215034791985901917}
   - {fileID: 5383096249687317597}
-  - {fileID: 6603985979797660452}
   - {fileID: 3439906986183237560}
+  - {fileID: 6603985979797660452}
   - {fileID: 3420713240474859498}
   - {fileID: 5576937407040294184}
-  - {fileID: 7671884842012146068}
   - {fileID: 3501625676625807805}
+  - {fileID: 7671884842012146068}
   - {fileID: 3402931745743156869}
   - {fileID: 4892428606559661710}
   - {fileID: 458830510295155312}
-  - {fileID: 8662582397925863382}
   - {fileID: 409726501169766424}
+  - {fileID: 8662582397925863382}
   - {fileID: 2488576160861388678}
-  - {fileID: 3604664045930134954}
   - {fileID: 714119294777646216}
+  - {fileID: 3604664045930134954}
   - {fileID: 1593530016186680532}
   - {fileID: 196967304319635760}
   - {fileID: 6357948223425798085}
   - {fileID: 7748558131330514826}
-  - {fileID: 8491143159368756116}
   - {fileID: 1716060979072917482}
+  - {fileID: 8491143159368756116}
   - {fileID: 1513988987833511042}
   - {fileID: 999722625505854459}
   - {fileID: 5062311809087147705}
   - {fileID: 634862524560302056}
-  - {fileID: 7117076735559918457}
   - {fileID: 3401977296203513481}
+  - {fileID: 7117076735559918457}
   - {fileID: 5588610088457496812}
   - {fileID: 131075984422964519}
   - {fileID: 8080989217772882251}
   - {fileID: 8787418969558430745}
+  - {fileID: 4034282956684714319}
   - {fileID: 8980979697077077238}
   - {fileID: 8752225694180425317}
-  - {fileID: 4034282956684714319}
   - {fileID: 3370813946527450636}
-  - {fileID: 6455050638518200009}
   - {fileID: 327084627155620415}
+  - {fileID: 6455050638518200009}
   - {fileID: 2393125265582229365}
   - {fileID: 2363717703449259325}
   - {fileID: 4945904411233661790}
-  - {fileID: 5957962556117284998}
   - {fileID: 816520909871865677}
+  - {fileID: 5957962556117284998}
   - {fileID: 4554068908074266728}
   - {fileID: 3146944781075983070}
   - {fileID: 6116967339640967789}
   - {fileID: 3839784822816023701}
   - {fileID: 1852132103265292671}
+  - {fileID: 787393736450507251}
   - {fileID: 6837563127371915873}
   - {fileID: 6616935563727472625}
-  - {fileID: 787393736450507251}
   - {fileID: 1649951532203710660}
   - {fileID: 5068479568555803067}
-  - {fileID: 7593088798495910035}
   - {fileID: 3238192623765705407}
+  - {fileID: 7593088798495910035}
   - {fileID: 3320774727961427503}
-  - {fileID: 7155669519613699251}
   - {fileID: 2050240448697382527}
+  - {fileID: 7155669519613699251}
   - {fileID: 6443434581504115189}
-  - {fileID: 7923837870935747147}
   - {fileID: 3224259144988814428}
-  - {fileID: 5057382728003873788}
+  - {fileID: 7923837870935747147}
   - {fileID: 223402614765574406}
+  - {fileID: 5057382728003873788}
   - {fileID: 3552931634864375786}
   - {fileID: 3688129761131807675}
-  - {fileID: 8535086357959971626}
   - {fileID: 157735571556040455}
-  - {fileID: 6805405541768839460}
+  - {fileID: 8535086357959971626}
   - {fileID: 460321905452455314}
+  - {fileID: 6805405541768839460}
   - {fileID: 4749036409615341633}
+  - {fileID: 6294275528288920467}
   - {fileID: 8866569600428757806}
   - {fileID: 8476700647566677565}
-  - {fileID: 6294275528288920467}
-  - {fileID: 7156917493188097128}
   - {fileID: 523603619117997436}
-  - {fileID: 4756237245405103812}
+  - {fileID: 7156917493188097128}
   - {fileID: 817921605015939068}
+  - {fileID: 4756237245405103812}
   - {fileID: 1542735768853772934}
-  - {fileID: 5990789319848177329}
   - {fileID: 2134603586014489234}
+  - {fileID: 5990789319848177329}
   - {fileID: 3849138824730129327}
   - {fileID: 7604892736104861172}
   - {fileID: 5961872749299367765}
   - {fileID: 4142030568255031654}
   - {fileID: 3559696813949818072}
-  - {fileID: 8638162361765481630}
   - {fileID: 3652992904166160416}
+  - {fileID: 8638162361765481630}
   - {fileID: 5281589028081681020}
   - {fileID: 6080292269802972869}
   - {fileID: 4929274173568571686}
+  - {fileID: 1670181383377548995}
   - {fileID: 6246096032791890346}
   - {fileID: 4563840231728277740}
-  - {fileID: 1670181383377548995}
   - {fileID: 1700434693359205764}
   - {fileID: 5010194325954788711}
   - {fileID: 8820142958978524948}
   - {fileID: 2590212438818558058}
   - {fileID: 1147572140701927213}
   - {fileID: 250085837661661360}
-  - {fileID: 9154539554418594960}
   - {fileID: 1572612867053575483}
+  - {fileID: 9154539554418594960}
   - {fileID: 3692357204776743800}
   - {fileID: 126199161631776309}
   - {fileID: 5633144815523103768}
@@ -147,28 +178,28 @@ Transform:
   - {fileID: 8453731556351314098}
   - {fileID: 7599691998225928074}
   - {fileID: 7376806591017189288}
-  - {fileID: 9051344086495403984}
   - {fileID: 1621489772513485527}
-  - {fileID: 7557125935116026343}
+  - {fileID: 9051344086495403984}
   - {fileID: 3224250919913538289}
+  - {fileID: 7557125935116026343}
   - {fileID: 872941198252591091}
   - {fileID: 5742017694450614830}
+  - {fileID: 381877204171444165}
   - {fileID: 6334521785538193050}
   - {fileID: 4055105067933645836}
-  - {fileID: 381877204171444165}
   - {fileID: 3021382066680260061}
+  - {fileID: 1316060158811557346}
   - {fileID: 3842830249129527171}
   - {fileID: 1749964627608554908}
-  - {fileID: 1316060158811557346}
   - {fileID: 1670876110024685668}
   - {fileID: 4431971706500474381}
   - {fileID: 1792221390349244151}
   - {fileID: 5282119800200507929}
   - {fileID: 799039834346099086}
   - {fileID: 5942409291900263202}
+  - {fileID: 1871159079119974290}
   - {fileID: 7952808301936095084}
   - {fileID: 4471803999997897128}
-  - {fileID: 1871159079119974290}
   - {fileID: 1872461939709065731}
   - {fileID: 2144253234140974954}
   m_Father: {fileID: 0}
@@ -219,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -241,6 +272,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &999722625505854459 stripped
@@ -294,7 +335,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 124
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -369,7 +410,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 109
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -519,7 +560,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -541,6 +582,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &634862524560302056 stripped
@@ -744,7 +795,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 137
+      value: 138
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -819,7 +870,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -841,6 +892,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &787393736450507251 stripped
@@ -969,7 +1030,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 128
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -991,6 +1052,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &381877204171444165 stripped
@@ -1066,6 +1137,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &327084627155620415 stripped
@@ -1269,7 +1350,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -1344,7 +1425,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -1419,7 +1500,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 114
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -1494,7 +1575,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 110
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -1644,7 +1725,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -1741,6 +1822,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &157735571556040455 stripped
@@ -1794,7 +1885,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 143
+      value: 144
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -1891,6 +1982,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &2134603586014489234 stripped
@@ -2019,7 +2120,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 142
+      value: 143
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2041,6 +2142,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &1872461939709065731 stripped
@@ -2094,7 +2205,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 141
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2169,7 +2280,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2244,7 +2355,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 135
+      value: 136
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2266,6 +2377,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &1792221390349244151 stripped
@@ -2319,7 +2440,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 131
+      value: 133
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2394,7 +2515,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2544,7 +2665,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2619,7 +2740,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2716,6 +2837,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &1716060979072917482 stripped
@@ -2769,7 +2900,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 105
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2844,7 +2975,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 133
+      value: 134
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2919,7 +3050,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 104
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -2941,6 +3072,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &1670181383377548995 stripped
@@ -2994,7 +3135,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -3144,7 +3285,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -3166,6 +3307,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &1593530016186680532 stripped
@@ -3219,7 +3370,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 132
+      value: 131
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -3316,6 +3467,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &3238192623765705407 stripped
@@ -3594,7 +3755,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -3616,6 +3777,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &3420713240474859498 stripped
@@ -3669,7 +3840,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -3766,6 +3937,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &3401977296203513481 stripped
@@ -3819,7 +4000,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -3894,7 +4075,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -3916,6 +4097,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &3320774727961427503 stripped
@@ -3969,7 +4160,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 129
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4044,7 +4235,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 116
+      value: 117
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4119,7 +4310,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4194,7 +4385,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4216,6 +4407,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &2718241409776563969 stripped
@@ -4269,7 +4470,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4291,6 +4492,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &2393125265582229365 stripped
@@ -4344,7 +4555,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4419,7 +4630,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 108
+      value: 109
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4441,6 +4652,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &2590212438818558058 stripped
@@ -4494,7 +4715,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4569,7 +4790,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 134
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4591,6 +4812,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &4431971706500474381 stripped
@@ -4644,7 +4875,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 103
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4719,7 +4950,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4794,7 +5025,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 140
+      value: 142
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4816,6 +5047,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &4471803999997897128 stripped
@@ -4869,7 +5110,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 95
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4944,7 +5185,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 127
+      value: 129
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -4966,6 +5207,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &4055105067933645836 stripped
@@ -5019,7 +5270,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 92
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5094,7 +5345,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 130
+      value: 132
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5169,7 +5420,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5244,7 +5495,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5394,7 +5645,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 96
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5416,6 +5667,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &3559696813949818072 stripped
@@ -5469,7 +5730,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5619,7 +5880,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 113
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5694,7 +5955,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5791,6 +6052,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &3652992904166160416 stripped
@@ -5844,7 +6115,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5919,7 +6190,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -5994,7 +6265,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6069,7 +6340,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6091,6 +6362,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &5563599018377237628 stripped
@@ -6144,7 +6425,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 125
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6219,7 +6500,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 115
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6294,7 +6575,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 136
+      value: 137
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6369,7 +6650,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 99
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6444,7 +6725,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6519,7 +6800,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 106
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6541,6 +6822,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &5010194325954788711 stripped
@@ -6594,7 +6885,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6669,7 +6960,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 101
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6744,7 +7035,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6819,7 +7110,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6894,7 +7185,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -6969,7 +7260,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7044,7 +7335,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7194,7 +7485,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7216,6 +7507,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &4756237245405103812 stripped
@@ -7269,7 +7570,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7291,6 +7592,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &6837563127371915873 stripped
@@ -7344,7 +7655,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7366,6 +7677,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &6805405541768839460 stripped
@@ -7419,7 +7740,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7494,7 +7815,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7569,7 +7890,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7644,7 +7965,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7666,6 +7987,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &6616935563727472625 stripped
@@ -7719,7 +8050,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7794,7 +8125,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7869,7 +8200,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 100
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7944,7 +8275,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -7966,6 +8297,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &6339466306431564112 stripped
@@ -8019,7 +8360,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 126
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8094,7 +8435,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8169,7 +8510,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 102
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8244,7 +8585,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8266,6 +8607,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &5876308719065701461 stripped
@@ -8319,7 +8670,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 90
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8394,7 +8745,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 94
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8416,6 +8767,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &5961872749299367765 stripped
@@ -8469,7 +8830,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8491,6 +8852,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &5957962556117284998 stripped
@@ -8544,7 +8915,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 138
+      value: 139
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8619,7 +8990,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8694,7 +9065,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 139
+      value: 141
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8716,6 +9087,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &7952808301936095084 stripped
@@ -8769,7 +9150,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 93
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8844,7 +9225,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 118
+      value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8866,6 +9247,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &7599691998225928074 stripped
@@ -8919,7 +9310,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -8994,7 +9385,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 122
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9069,7 +9460,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9144,7 +9535,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9219,7 +9610,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 119
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9241,6 +9632,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &7376806591017189288 stripped
@@ -9294,7 +9695,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9369,7 +9770,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9391,6 +9792,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &7156917493188097128 stripped
@@ -9444,7 +9855,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9519,7 +9930,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9541,6 +9952,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &7117076735559918457 stripped
@@ -9594,7 +10015,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 120
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9669,7 +10090,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9744,7 +10165,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9766,6 +10187,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &8980979697077077238 stripped
@@ -9819,7 +10250,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 111
+      value: 113
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9894,7 +10325,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -9969,7 +10400,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10044,7 +10475,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10066,6 +10497,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &8752225694180425317 stripped
@@ -10119,7 +10560,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10194,7 +10635,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10269,7 +10710,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10291,6 +10732,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &8915925615726775997 stripped
@@ -10344,7 +10795,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 82
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10366,6 +10817,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &8866569600428757806 stripped
@@ -10419,7 +10880,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 107
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10494,7 +10955,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10516,6 +10977,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &8491143159368756116 stripped
@@ -10569,7 +11040,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10644,7 +11115,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 117
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10719,7 +11190,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 97
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10741,6 +11212,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &8638162361765481630 stripped
@@ -10794,7 +11275,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10816,6 +11297,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopTileBlockWithBorders (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534514321090312778, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_TagString
+      value: isMine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205914685487351843, guid: 8b3c74ea3cedad847955ee86ca8c5871,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e77e4f1e123aec942a805f84fdff6a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3c74ea3cedad847955ee86ca8c5871, type: 3}
 --- !u!4 &8535086357959971626 stripped
@@ -10869,7 +11360,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
@@ -10944,7 +11435,7 @@ PrefabInstance:
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1007830416192632940, guid: 8b3c74ea3cedad847955ee86ca8c5871,
         type: 3}

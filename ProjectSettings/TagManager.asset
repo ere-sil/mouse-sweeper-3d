@@ -23,6 +23,7 @@ TagManager:
   - triggerIsMine
   - Shield
   - Cheese
+  - Mincer
   layers:
   - Default
   - TransparentFX

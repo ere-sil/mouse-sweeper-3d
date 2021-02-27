@@ -17,6 +17,8 @@ public class TimerController : MonoBehaviour
     public float elapsedTime;
     public float timerTime;
 
+    public Mincer mincer;
+
     public void Awake()
     {
         instance = this;
@@ -58,6 +60,7 @@ public class TimerController : MonoBehaviour
             if(timerTime<=0)
             {
                 timeCounter.color = Color.red;
+                mincer.ActivateMincer();
             }
             else if(timerTime<=30)
             {

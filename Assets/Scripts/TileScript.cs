@@ -44,7 +44,7 @@ public class TileScript : MonoBehaviour
             }
             if (player.GetComponent<PlayerController>().currentHearts <= 0)//last life=big explosion
             {
-                audiomanager.Play("BigExplosion");
+                audiomanager.Play("BigExplosion");                
                 Vector3 playerPos = new Vector3(player.transform.position.x-3, player.transform.position.y, player.transform.position.z);
                 Instantiate(explosion, gameObject.transform.position, Quaternion.identity);
             }

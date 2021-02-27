@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\BridgeCollapseTrigger.cs" />
     <Compile Include="Assets\Scripts\CameraCollision.cs" />
     <Compile Include="Assets\Scripts\CameraFollowAndRotate.cs" />
+    <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\CheesePiece.cs" />
     <Compile Include="Assets\Scripts\CollapseController.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\MetalDetector.cs" />
     <Compile Include="Assets\Scripts\MiceMincer.cs" />
+    <Compile Include="Assets\Scripts\Mincer.cs" />
     <Compile Include="Assets\Scripts\MineCounter.cs" />
     <Compile Include="Assets\Scripts\MinesNextToTileCounter.cs" />
     <Compile Include="Assets\Scripts\MouseLookCamera.cs" />
