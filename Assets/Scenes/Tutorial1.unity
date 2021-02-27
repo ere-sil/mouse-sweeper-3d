@@ -6205,10 +6205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd10457d7837b8343b598fd119c5e1d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cheeseCounter: {fileID: 0}
-  totalCheese: 0
-  cheeseleft: 0
-  currentCheese: 0
   flaggedMines: 0
   flaggedNoMines: 0
   newY: 0.1
@@ -6217,6 +6213,7 @@ MonoBehaviour:
     type: 3}
   noMineFlag: {fileID: 4520490566379127765, guid: bdcf546cc9fc90b4596994ab1ccbf5d4,
     type: 3}
+  mineCounter1: {fileID: 0}
 --- !u!114 &1753995169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6234,6 +6231,7 @@ MonoBehaviour:
   timeGiven: 180
   elapsedTime: 0
   timerTime: 0
+  mincer: {fileID: 0}
 --- !u!1 &1805722576
 GameObject:
   m_ObjectHideFlags: 0
